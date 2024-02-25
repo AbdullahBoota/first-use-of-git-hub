@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+header {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    background-color: 1px solid white;
+    width: 100%;
+    box-shadow: 1px 1px 3px gray;
+}
+header nav{
+    color: black;
+    text-decoration: none;
+    margin-left: 80%;
+}
+header nav a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+}
+header p{
+    margin-right: 85%;
+    margin-top: 5px;
+}
+ footer { 
+    text-align: center;
+    background-color: black;
+}
+footer div p{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+}
+footer a{
+    color: white;
+}
+.center{
+    display: block;
+    margin: auto;
+    padding: auto;
+    width: 1000px;
+}
+main center p{
+    margin-right: 73%;
+}
+.block{
+    font-size: x-large;
+    /* bottom: 20px; */
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    opacity: 0.7;
+}
+.abc{
+    font-size: x-large;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Flex-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main div.Geo{
+    width: 80%;
+    margin: 0 auto;
+  }
+.Flex-container .box{
+    border: 1px hidden black;
+    width: 24%;
+    background-image: url(assets/images/house5.jpg);
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.box p{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 118px;
+    padding: 2px;
+  }
+  .box2{
+    border: 1px hidden black;
+    width: 24%;
+    background-image: url(assets/images/house2.jpg);
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+    .box2 p{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 95px;
+        padding: 2px;
+    }
+    .box3{
+        border: 1px hidden black;
+        width: 24%;
+        background-image: url(assets/images/house3.jpg);
+        height: 180px;
+        background-position: center;
+        background-size: cover;
+      }
+      .box3 p{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 84px;
+        padding: 2px;
+      }
+      .box4{
+        border: 1px hidden black;
+        width: 24%;
+        background-image: url(assets/images/house4.jpg);
+        height: 180px;
+        background-position: center;
+        background-size: cover;
+        background-size: cover;
+      }
+      .box4 p{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 90px;
+        padding: 2px;
+      }
+      .box5{
+        border: 1px hidden black;
+        width: 24%;
+        background-image: url(assets/images/house2.jpg);
+        height: 180px;
+        background-position: center;
+        background-size: cover;
+      }
+      .box5 p{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 117px;
+        padding: 2px;
+      }
+      .box6{
+        border: 1px hidden black;
+        width: 24%;
+        background-image: url(assets/images/house5.jpg);
+        height: 180px;
+        background-position: center;
+        background-size: cover;
+      }
+      .box6 p{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 95px;
+        padding: 2px;
+      }
+      .box7{
+        border: 1px hidden black;
+        width: 24%;
+        background-image: url(assets/images/house4.jpg);
+        height: 180px;
+        background-position: center;
+        background-size: cover;
+      }
+      .box7 p{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 84px;
+        padding: 2px;
+      }
+      .box8{
+        border: 1px hidden black;
+        width: 24%;
+        background-image: url(assets/images/house3.jpg);
+        height: 180px;
+        background-position: center;
+        background-size: cover;
+      }
+      .box8 p{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 90px;
+        padding: 2px;
+      }
+      main div.lorem{
+        margin-left: 10%;
+        width: 82%;
+        margin: 0 auto;
+        text-align: justify;
+      }
+      .Flex-container3{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .Flex-container3 img{
+        width: 24%;
+        height: auto;
+      }
+      .Flex-container3 img{
+        width: 24%;
+        height: auto;
+      }
+      .Flex-container3 img{
+        width: 24%;
+        height: auto;
+      }
+      main div.employer{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+      }
+      main div.employer h5{
+        background-color: rgb(224, 224, 224);
+        color: black;
+       max-width:95%;
+        text-align: center;
+        height: 35px;
+        line-height: 35px;
+      }
+      main div.employer div.first,div.second,div.third,div.fourth{
+         width: 25%;
+         color: 1px solid black;
+      }
+      main div.employer div.second{
+        margin-left: 6px;
+      }
+      main div.employer div.third{
+        margin-left: 12px;
+      }
+      main div.employer div.fourth{
+        margin-left: 20px;
+      }
+      .Flex-container4{
+        width: 80%;
+        margin: 0 auto;
+      }
+      input[type=text] {
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+      }
+      input[type=email]{
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+      }
+      .btn{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        margin: auto;
+        border-radius: 3px;
+      }
+      .Flex-container5{
+        background-image: url(assets/images/map.jpg);
+        width: 80%;
+        margin: 0 auto;
+        height: 80vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+      }
+      @media screen and (max-width:1550px) {
+        nav p{
+          margin-right: 1000px;
+          margin-top: 10px;
+          font-size: 15px;}
+      }
+      @media screen and (max-width:1000px) {
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .main{
+          height: calc(100vh-153);
+        }
